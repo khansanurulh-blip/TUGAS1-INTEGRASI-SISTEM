@@ -6,7 +6,7 @@ app = FastAPI()
 
 # Model data
 class Mahasiswa(BaseModel):
-    name: str
+    nama: str
     alamat: str
     ipk: float
     semester: int 
